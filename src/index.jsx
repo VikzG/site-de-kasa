@@ -1,36 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-import Home from './pages/Home';
-import AboutPage from './pages/AboutPage;';
-import Logements from './pages/Logements';
-import Error from './pages/Error';
+import reportWebVitals from "./reportWebVitals";
 
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Router>
-      <Header />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/AboutPage">
-          <AboutPage />
-        </Route>
-        <Route path="/Logements">
-          <Logements />
-        </Route>
-        <Route>
-        <Error />
-        </Route>
-      </Switch>
-    </Router>
+    <App />
   </React.StrictMode>
 );
 
