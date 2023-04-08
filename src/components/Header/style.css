@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 68px;
+  max-width: 95%;
+  margin: 4%;
+}
+
+.logo-header {
+  height: 200%;
+}

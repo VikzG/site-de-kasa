@@ -1,0 +1,32 @@
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  max-width: 95%;
+  margin-left: 8%;
+  height: 225px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/home_cover.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+}
+
+.banner_about {
+  border-radius: 25px;
+  height: 223px;
+  max-width: 95%;
+  margin: 43px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/about_cover.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-txt {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 48px;
+  z-index: 1;
+}/*# sourceMappingURL=style.css.map */
