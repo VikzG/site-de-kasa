@@ -2,9 +2,9 @@ import './style.scss'
 import arrow from '../../assets/arrow.png';
 import { useState } from 'react';
 
-export default function Collapse({title, content}) {
+export default function Collapse({title, content}) { /*parametres titre et contenu */
 
-    const [toggle, setToggle] = useState(false);
+    const [toggle, setToggle] = useState(false); /*toggle true up et false down */
 
     return (
         <>

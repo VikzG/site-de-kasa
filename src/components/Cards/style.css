@@ -1,10 +1,10 @@
 .card-container{
-width: 30%;
-height: 340px;
-border-radius: 10px;
-cursor: pointer;
-overflow: hidden;
-transition : box-shadow 0.2s ease-in-out;
+    position: relative;
+    width: 30%;
+    height: 340px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
 }
 
 img{
@@ -15,9 +15,13 @@ img{
     transition: transform 0.2s ease-in-out;
     will-change: transform;
 }
-h3{
+.card_title{
     z-index: 20;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
     font-weight: 500;
-    font-size: clamp(12px, 3vw, 18px);
+    font-size: 12px;
     color: white;
 }

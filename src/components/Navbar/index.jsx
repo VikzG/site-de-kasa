@@ -6,7 +6,7 @@ export default function Navbar(){
 <nav>
     <ul className='nav-list'>
             <li className='nav-item'>
-        <Link  to='/Kasa/'>
+        <Link  to='/kasa_home/'>
             Accueil
         </Link>
             </li>
