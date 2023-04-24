@@ -1,24 +1,21 @@
-import { FaStar, FaRegStar,  FaStarHalfAlt } from 'react-icons/fa';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import './style.scss'
 
-function RatingStars({ rating }) {
-  const filledStars = Math.floor(rating);
-  const halfStar = rating % 1 !== 0;
-  const emptyStars = 5 - filledStars - (halfStar ? 1 : 0);
 
-  const stars = [];
-  for (let i = 0; i < filledStars; i++) {
-    stars.push(<FaStar key={`star-${i}`} />);
-  }
+const RatingStars = ({ rating }) => {
+  return (
+    <div className="rating-stars">
+      {Array.from(Array(5).keys()).map((x) => (
+        <span key={x} className="rating-star">
+          <FontAwesomeIcon
+            icon={faStar}
+            color={x < rating ? '#FF6060' : '#C4C4C4'}
+          />
+        </span>
+      ))}
+    </div>
+  );
+};
 
-  if (halfStar) {
-    stars.push(<FaStarHalfAlt key="half-star" />);
-  }
-
-  for (let i = 0; i < emptyStars; i++) {
-    stars.push(<FaRegStar key={`empty-star-${i}`} />);
-  }
-
-  return <div>{stars}</div>;
-}
-
-export default RatingStars
+export default RatingStars;

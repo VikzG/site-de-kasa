@@ -1,4 +1,5 @@
-.notFound{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.Error{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -13,21 +14,26 @@
         min-height: calc(100vh - 250px);
         &_title{
             align-self: center;
+            font-family: "Montserrat";
             font-weight: 700;
             font-size: 288px;
-            @media screen and (max-width: 768px) {
-                font-size: 140px;    
+            margin: auto;
+            @media screen and (max-width: 765px) {
+                font-size: 96px;
+                margin-bottom: 0;
+                margin-top: 0;
             }
         }
         &_content{
+            font-family: "Montserrat";
             font-weight: 500;
             font-size: clamp(20px, 4vw, 36px);
             text-align: center;
         }
         &_return{
-            width: 15%;
             display: flex;
             align-self: center;
+            font-family: "Montserrat";
             font-weight: 500;
             font-size: clamp(12px, 2.5vw, 18px);
         }

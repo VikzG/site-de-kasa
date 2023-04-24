@@ -1,10 +1,17 @@
-.home_gallery{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    background-color: #F7F7F7;
-    padding: 50px;
-    border-radius: 25px;
-    width: 80%;
-    margin: 0 auto;
+.home_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-color: #F7F7F7;
+  padding: 30px;
+  border-radius: 25px;
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
 }
+@media screen and (max-width: 375px) {
+  .home_gallery {
+    width: 85%;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

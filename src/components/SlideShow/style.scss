@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .carousel{
     position: relative;
     display: flex;
@@ -15,12 +16,10 @@
     &_arrow{
         position: absolute;
         top: 50%;
+        width: 4%;
         height: 15%;
         transform: translateY(-50%);
         cursor: pointer;
-        &:active{
-            transform: translateY(-50%) scale(0.9);
-        }
         &_right{
             right: 25px;
         }

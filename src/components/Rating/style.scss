@@ -1,0 +1,17 @@
+.rating-star {
+    font-size: 24px;
+    @media screen and (max-width: 550px){  
+      font-size: 13px;
+    }
+  }
+
+.rating-stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    @media screen and (max-width: 550px){  
+      gap:10%
+    }
+}

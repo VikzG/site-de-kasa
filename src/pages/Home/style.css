@@ -1,4 +1,11 @@
-.home{
-    margin: 0;
-    
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+@media screen and (max-width: 550px) {
+  .home {
+    max-width: 100%;
+    overflow: hidden;
+  }
+}/*# sourceMappingURL=style.css.map */

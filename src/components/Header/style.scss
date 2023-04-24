@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 68px;
+  margin: 4%;
+}
+
+.logo-header {
+  height: 200%;
+}
+
+@media screen and (max-width: 550px){  
+.logo_title {
+  width: 30vw;
+}
+.logo-header {
+  height: 120%;
+  width: 25vw;
+}
+}

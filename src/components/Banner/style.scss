@@ -1,29 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .banner-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    justify-self: center;
-    max-width: 95%;
-    margin-left: 8%;
+    margin: auto;
+    width: 92%;
     height: 225px;
     background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../../assets/home_cover.png');
     background-size: cover;
     background-position: center;
     border-radius: 25px;
+    @media screen and (max-width: 550px){  
+        height: 111px;
+        width: 90%;
+        padding: 2%; 
+      }
+      @media screen and (max-width: 375px){  
+        width: 85%;
+      }
 }
 
 .banner_about{
         border-radius: 25px;
         height: 223px;
         max-width: 95%;
-        margin: 43px auto;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        margin: 43px;
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('../../assets/about_cover.jpg');
         background-position: center;
         background-size: cover;
+        @media screen and (max-width: 550px){  
+          margin: 20px;
+          border-radius: 10px;
+        }
 }
 
 .banner-txt{
@@ -32,4 +45,7 @@
     font-weight: 500;
     font-size: 48px;
     z-index: 1;
+    @media screen and (max-width: 550px){  
+        font-size: 24px;
+      }
 }

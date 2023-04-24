@@ -1,3 +1,4 @@
+import './style.scss'
 import Header from '../../components/Header/index.jsx'
 import Banner from '../../components/Banner/index.jsx'
 import Gallery from '../../components/Gallery/index.jsx'

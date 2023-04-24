@@ -1,4 +1,4 @@
-import './style.css'
+import './style.scss'
 import logo from '../../assets/logo_footer.png'
 
 export default function Footer() {

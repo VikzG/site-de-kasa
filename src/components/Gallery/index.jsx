@@ -1,4 +1,4 @@
-import './style.css';
+import './style.scss';
 import datas from '../../data/list'
 import Card from '../Cards'
 
