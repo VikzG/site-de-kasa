@@ -11,7 +11,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        min-height: calc(100vh - 250px);
         &_title{
             align-self: center;
             font-family: "Montserrat";
@@ -27,7 +26,7 @@
         &_content{
             font-family: "Montserrat";
             font-weight: 500;
-            font-size: clamp(20px, 4vw, 36px);
+            font-size: 20px;
             text-align: center;
         }
         &_return{
@@ -35,7 +34,7 @@
             align-self: center;
             font-family: "Montserrat";
             font-weight: 500;
-            font-size: clamp(12px, 2.5vw, 18px);
+            font-size: 17px;
         }
         &_return:hover{
             border-bottom: solid 1px #FF6060;
