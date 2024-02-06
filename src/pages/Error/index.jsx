@@ -10,7 +10,7 @@ export default function Error() {
 				<h1 className='Error_infos_title'>404</h1>
 				<p className='Error_infos_content'>Oups! La page que vous demandez n'existe pas.</p>
 			</div>
-				<Link className='Error_infos_return' to='/kasa_home/'>Retourner sur la page d'accueil</Link>
+				<Link className='Error_infos_return' to='/'>Retourner sur la page d'accueil</Link>
 		</div>
 	)
 }

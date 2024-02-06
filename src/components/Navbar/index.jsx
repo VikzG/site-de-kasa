@@ -7,7 +7,7 @@ export default function Navbar() {
       <nav>
         <ul className='nav-list'>
           <li className='nav-item'>
-            <Link to='/kasa_home/' className={window.location.pathname === '/kasa_home/' ? 'active' : ''}>
+            <Link to='/' className={window.location.pathname === '/' ? 'active' : ''}>
               Accueil
             </Link>
           </li>
