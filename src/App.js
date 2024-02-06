@@ -7,7 +7,7 @@ import Error from "./pages/Error";
 
 const router = createBrowserRouter([
 	{
-		path: "/kasa_home/",
+		path: "/",
 		element: <Home />
 	},
 	{
